@@ -10,7 +10,7 @@
 		<relativePath>../hello-spring-cloud-dependencies/pom.xml</relativePath>
 	</parent>
 
-	<artifactId>hello-spring-cloud-web-admin-ribbon</artifactId>
+	<artifactId>hello-spring-cloud-web-admin-feign</artifactId>
 	<packaging>jar</packaging>
 
 	<name>hello-spring-cloud-web-admin-ribbon</name>
@@ -51,7 +51,7 @@
 
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
+			<artifactId>spring-cloud-starter-openfeign</artifactId>
 		</dependency>
 
 		<dependency>
@@ -66,7 +66,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<mainClass>com.funtl.hello.spring.cloud.web.admin.ribbon.WebAdminRibbonApplication</mainClass>
+					<mainClass>com.funtl.hello.spring.cloud.web.admin.feign.WebAdminFeignApplication</mainClass>
 				</configuration>
 			</plugin>
 		</plugins>
