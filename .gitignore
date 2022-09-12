@@ -2,5 +2,6 @@
 /hello-spring-cloud-eureka/target/
 /hello-spring-cloud-service-admin/target/
 /hello-spring-cloud-web-admin-ribbon/target/
+/hello-spring-cloud-web-admin-feign/target/
 
 .idea
