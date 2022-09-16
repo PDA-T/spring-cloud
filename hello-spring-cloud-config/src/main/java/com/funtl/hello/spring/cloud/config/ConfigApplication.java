@@ -1,19 +1,18 @@
-package com.funtl.hello.spring.cloud.zuul;
+package com.funtl.hello.spring.cloud.config;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.config.server.EnableConfigServer;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 
 /**
- * Zuul路由网关
- * 服务过滤
+ * 分布式配置中心
  */
 @SpringBootApplication
+@EnableConfigServer// 开启配置服务
 @EnableEurekaClient// 启用eureka客户端
-@EnableZuulProxy// 启用Zuul路由代理
-public class ZuulApplication {
+public class ConfigApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(ZuulApplication.class, args);
+		SpringApplication.run(ConfigApplication.class,args);
 	}
 }
