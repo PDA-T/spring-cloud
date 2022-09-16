@@ -3,5 +3,6 @@
 /hello-spring-cloud-service-admin/target/
 /hello-spring-cloud-web-admin-ribbon/target/
 /hello-spring-cloud-web-admin-feign/target/
+/hello-spring-cloud-zuul/target
 
 .idea
