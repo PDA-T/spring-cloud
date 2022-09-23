@@ -9,6 +9,10 @@ spring:
       content-type: text/html
   zipkin:
     base-url: http://127.0.0.1:9411
+  boot:
+    admin:
+      client:
+        url: http://127.0.0.1:8084
 
 server:
   port: 8764
