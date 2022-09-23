@@ -5,5 +5,6 @@
 /hello-spring-cloud-web-admin-feign/target/
 /hello-spring-cloud-zuul/target
 /hello-spring-cloud-config/target
+/hello-spring-cloud-zipkin/target
 
 .idea

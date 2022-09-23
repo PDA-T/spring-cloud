@@ -10,6 +10,8 @@ spring:
           search-paths: spring-cloud-config/config
           username:
           password:
+  zipkin:
+    base-url: http://127.0.0.1:9411
 
 server:
   port: 8888
